@@ -26,34 +26,39 @@ secrets, no reading anything outside this repository.
 
 The winning joke:
 
-  "I told my kids I'm a big fan of whiteboards. They're quite
-   re-markable."
+  "I told the kids I put all my money into a smoothie bar.
+   Now I'm liquid."
 
 Why this line works, criterion by criterion:
 
-  * Dad joke, told at the table (criterion 1): it opens "I told my
+  * Dad joke, told at the table (criterion 1): it opens "I told the
     kids", a father talking about his own kids, and the subject is a
-    whiteboard — the most dad of enthusiasms, a man proudly fond of
-    unglamorous stationery.
-  * Clean pun (criterion 2): "re-markable" lands on the first read.
-    A whiteboard is a board you mark, erase, and mark again — it is
-    literally re-markable, and the word sounds exactly like
-    "remarkable" when said aloud, so the turn needs no explaining.
+    dad's proud, slightly foolish investment — a very dad-shaped
+    boast to make over dinner.
+  * Clean pun (criterion 2): "liquid" lands on the first read.
+    Money is liquid, and a smoothie is liquid too — the turn needs
+    no explaining, and it is the very last word of the joke.
   * Fresh (criterion 3): an original line, written for this
-    competition. It is not a recycled "Hi hungry, I'm Dad", not the
-    scarecrow "outstanding in his field", not "I used to hate facial
-    hair, but then it grew on me", and not the "steaks are high"
-    barbecue gag — all of which already circulate widely and would
-    lose on freshness even though they are funny.
+    competition, with a smoothie-bar angle that does not circulate
+    in the usual dad-joke lists. It is not a recycled "Hi hungry,
+    I'm Dad", not the scarecrow "outstanding in his field", not
+    "I used to hate facial hair, but then it grew on me", and not
+    the "steaks are high" barbecue gag.
   * Tight (criterion 4): 71 characters, two short sentences, and the
     punchline is the very last word. Nothing in the setup is wasted:
-    "big fan" sets up the praise that "re-markable" pays off.
+    "all my money" sets up the financial turn that "liquid" pays off.
   * Aloud (criterion 5): it reads exactly as a father would say it
     across the dinner table, with a pause before the last word where
     the groan lands.
 
 Alternatives considered and rejected while writing this entry:
 
+  * The whiteboard joke — "I told my kids I'm a big fan of
+    whiteboards. They're quite re-markable." The pun is instant and
+    the line is tight, but "re-markable" on a whiteboard already
+    circulates widely in dad-joke lists, so it scores one notch
+    lower on freshness than the smoothie-bar line, and the judge
+    weighs freshness ahead of tightness and delivery.
   * The moon joke — "My daughter asked if the moon ever gets tired.
     I said no, it just phases in and out." Same total score, but its
     pun is one notch less clean: "phases" needs a half-second of
@@ -87,6 +92,11 @@ import sys
 
 # Each candidate: (text, scores 1-5 for the judge's five criteria, in order)
 CANDIDATES = [
+    (
+        "I told the kids I put all my money into a smoothie bar. "
+        "Now I'm liquid.",
+        (5, 5, 5, 5, 5),  # dad voice, clean pun, fresh, tight, aloud
+    ),
     (
         "I told my kids I'm a big fan of whiteboards. "
         "They're quite re-markable.",
